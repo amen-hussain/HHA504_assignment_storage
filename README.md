@@ -46,6 +46,10 @@ Working with cloud storage in Azure and GCP
   4. Click Done. 
   5. Click the 3 dots under Actions for the service account. 
   6. Click; Manage Keys. Add Key. Create New Key. JSON key type. Create. Download. 
+  7. The code I created is under "/workspaces/HHA504_assignment_storage/gcp.py"
+  8. I came across an error here. I returned to my bucket in GCP. Went back to IAM & Admin; Edit Permissions; Add another role; Storage Object Admin; Add another role; Storage Admin; Save. 
+
+
 
 ### 3. Explore Storage Features
 - **Azure:**

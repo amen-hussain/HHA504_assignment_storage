@@ -4,7 +4,7 @@ import io
 import os
 
 # Step 1: Set up your Google credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/amenhussain/Downloads/secret.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/workspaces/HHA504_assignment_storage/secret.json'
 
 # Step 2: Create a Google Cloud Storage client
 client = storage.Client()
