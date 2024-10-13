@@ -47,8 +47,10 @@ Working with cloud storage in Azure and GCP
   5. Click the 3 dots under Actions for the service account. 
   6. Click; Manage Keys. Add Key. Create New Key. JSON key type. Create. Download. 
   7. The code I created is under "/workspaces/HHA504_assignment_storage/gcp.py"
-  8. I came across an error here. I returned to my bucket in GCP. Went back to IAM & Admin; Edit Permissions; Add another role; Storage Object Admin; Add another role; Storage Admin; Save. 
+  8. I came across an error here. I returned to my bucket in GCP. Went back to IAM & Admin; Edit Permissions; Add another role; Storage Object Admin; Add another role; Storage Admin; Save.
+  9. I re-ran my code and was able to successfully upload the fake image into the bucket. 
 
+<img width="1405" alt="image" src="https://github.com/user-attachments/assets/acd24db6-7498-4e32-85b7-a98e13fd666e">
 
 
 ### 3. Explore Storage Features
