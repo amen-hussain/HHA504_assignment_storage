@@ -6,16 +6,15 @@ Working with cloud storage in Azure and GCP
 - **Azure Blob Storage:**
   - Navigate to the Azure portal and create a new Storage Account.
 
-<img width="825" alt="image" src="https://github.com/user-attachments/assets/67995e0c-0d2b-4792-b726-c226ac17bb42">
+<img width="1404" alt="image" src="https://github.com/user-attachments/assets/72be0919-5c7c-44dd-8e86-4189bb0c9c5e">
 
   - Create a Blob container within the Storage Account.
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/8855790a-736d-4c9d-9607-f01029f1ec78">
+
+<img width="1407" alt="image" src="https://github.com/user-attachments/assets/48b6cc97-aa13-4656-b035-a6f5776d34a5">
 
   - Upload a sample file (e.g., a text file or image) to the Blob container using the Azure portal.
 
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/abebdf13-ff2f-4219-a460-cbabeca9aebd">
-
-<img width="1376" alt="image" src="https://github.com/user-attachments/assets/4faceaf2-7aa0-4b6c-aa05-dd44a263ff7e">
+<img width="1406" alt="image" src="https://github.com/user-attachments/assets/cfe10809-c57b-4a76-805b-7c3f7787ea60">
 
   
 - **GCP Cloud Storage:**
@@ -32,6 +31,7 @@ Working with cloud storage in Azure and GCP
 
 - **Azure Blob Storage:**
   - Write a Python script that uploads a file to the Blob container you created. Use the `azure-storage-blob` library to handle the upload.
+1. Select Blob in container; 3 dots; generate SAS. 
 
 - **GCP Cloud Storage:**
 
