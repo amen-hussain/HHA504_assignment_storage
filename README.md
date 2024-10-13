@@ -34,10 +34,18 @@ Working with cloud storage in Azure and GCP
   - [Kaggle - Xray COVID images](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2)
   - [NLM - Open Access Biomedical images search engine](https://openi.nlm.nih.gov/)
   - [Cancer - Imaging Archive](https://www.cancerimagingarchive.net/browse-collections/)
+
 - **Azure Blob Storage:**
   - Write a Python script that uploads a file to the Blob container you created. Use the `azure-storage-blob` library to handle the upload.
+
 - **GCP Cloud Storage:**
   - Write a Python script that uploads a file to the GCP Cloud Storage bucket you created. Use the `google-cloud-storage` library to handle the upload.
+  1. Under IAM & Admin, create a service account. 
+  2. Provide a name under "Service account details"
+  3. Select "Compute storage admin" under "Grand this service account access to this project"
+  4. Click Done. 
+  5. Click the 3 dots under Actions for the service account. 
+  6. Click; Manage Keys. Add Key. Create New Key. JSON key type. Create. Download. 
 
 ### 3. Explore Storage Features
 - **Azure:**
