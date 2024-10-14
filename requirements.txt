@@ -1,2 +1,3 @@
 # pip install google-cloud-storage
 # pip install pillow 
+# pip install azure-storage-blob azure-identity python-dotenv

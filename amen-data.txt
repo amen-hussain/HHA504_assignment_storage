@@ -1,0 +1,1 @@
+Example of how to push data from github codespaces to secured azure blob container

@@ -31,7 +31,12 @@ Working with cloud storage in Azure and GCP
 
 - **Azure Blob Storage:**
   - Write a Python script that uploads a file to the Blob container you created. Use the `azure-storage-blob` library to handle the upload.
-1. Select Blob in container; 3 dots; generate SAS. 
+
+- Copy code from "https://colab.research.google.com/drive/1-TiNuRFiGucvnLgTlyp4bsdtR4_TduAT?usp=sharing#scrollTo=ZKgCaehp9NqN"
+- Storage account > Access Keys > Update account URL link
+- Create "text" file > upload Access Key > Rename .env
+- Run "source /workspaces/HHA504_assignment_storage/.venv/bin/activate" and "pip install azure-storage-blob azure-identity python-dotenv" in terminal 
+- Create "amen-data.txt" file in codespaces > run azure_storage_example.py > refresh blob container
 
 - **GCP Cloud Storage:**
 
