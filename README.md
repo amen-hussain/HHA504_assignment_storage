@@ -32,11 +32,13 @@ Working with cloud storage in Azure and GCP
 - **Azure Blob Storage:**
   - Write a Python script that uploads a file to the Blob container you created. Use the `azure-storage-blob` library to handle the upload.
 
-- Copy code from "https://colab.research.google.com/drive/1-TiNuRFiGucvnLgTlyp4bsdtR4_TduAT?usp=sharing#scrollTo=ZKgCaehp9NqN"
-- Storage account > Access Keys > Update account URL link
-- Create "text" file > upload Access Key > Rename .env
-- Run "source /workspaces/HHA504_assignment_storage/.venv/bin/activate" and "pip install azure-storage-blob azure-identity python-dotenv" in terminal 
-- Create "amen-data.txt" file in codespaces > run azure_storage_example.py > refresh blob container
+1. Copy code from "https://colab.research.google.com/drive/1-TiNuRFiGucvnLgTlyp4bsdtR4_TduAT?usp=sharing#scrollTo=ZKgCaehp9NqN"
+2. Storage account > Access Keys > Update account URL link
+3. Create "text" file > upload Access Key > Rename .env
+4. Run "source /workspaces/HHA504_assignment_storage/.venv/bin/activate" and "pip install azure-storage-blob azure-identity python-dotenv" in terminal
+5. Create "amen-data.txt" file in codespaces > run azure_storage_example.py > refresh blob container
+
+<img width="1275" alt="image" src="https://github.com/user-attachments/assets/559797ae-7e3f-4950-b3a4-1011635d1d8c">
 
 - **GCP Cloud Storage:**
 
@@ -56,8 +58,20 @@ Working with cloud storage in Azure and GCP
 ### 3. Explore Storage Features
 - **Azure:**
   - Explore and document the options for managing and securing data in Azure Blob Storage (e.g., access policies, tiers).
+
+<img width="1159" alt="image" src="https://github.com/user-attachments/assets/b62901ab-e1c7-495b-acb2-dc9c362c3216">
+
+1. My Access > Shows current role assignments and eligible assignments
+2. Check Access > Shows how much access a "party" has to this resource
+3. Add Role Assignment > Shows 45 possible job function roles > Allows members to be added
+
+<img width="1255" alt="image" src="https://github.com/user-attachments/assets/e668c2c4-439d-4a42-8335-e72049e2cfb8">
   
 - **GCP:**
   - Explore and document the options for managing and securing data in GCP Cloud Storage (e.g., IAM permissions, lifecycle rules).
+ 
+<img width="1084" alt="image" src="https://github.com/user-attachments/assets/54eaf805-bc4b-4804-88bb-130a68449a20">
+<img width="1087" alt="image" src="https://github.com/user-attachments/assets/f890cc93-0685-4079-9878-8265457b8ac7">
+
 
 
